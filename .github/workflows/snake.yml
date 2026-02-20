@@ -19,6 +19,7 @@ jobs:
           github_user_name: ChintisLab
           outputs: |
             dist/snake-dark.svg?palette=github-dark
+            dist/snake-2026.svg?palette=github-dark&year=2026
             dist/snake-2025.svg?palette=github-dark&year=2025
             dist/snake-2024.svg?palette=github-dark&year=2024
             dist/snake-2023.svg?palette=github-dark&year=2023

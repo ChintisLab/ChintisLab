@@ -900,7 +900,59 @@
       </div>
     </div>
 
-    <!-- ── PROJECT 4: NYC TAXI ── -->
+    <!-- ── PROJECT 4: SENTIMENT ANALYSIS ── -->
+    <div class="card status-live" data-tags="ai-ml live">
+      <div class="card-header">
+        <span class="card-icon">💬</span>
+        <div class="card-title-group">
+          <div class="card-title">Sentiment Analysis · Tone Detection</div>
+          <div class="card-subtitle">Naïve Bayes · SMOTE · TF-IDF · Sarcasm</div>
+        </div>
+        <div class="status-badge live">
+          <span class="status-dot"></span> LIVE
+        </div>
+      </div>
+
+      <div class="card-desc">
+        Classifies 14,640 airline tweets into Positive/Neutral/Negative with sarcasm tone detection. Addresses severe class imbalance via SMOTE, then deploys MultinomialNB with real-time prediction input.
+      </div>
+
+      <div class="metrics">
+        <div class="metric">
+          <span class="metric-value">84.6%</span>
+          <span class="metric-label">Accuracy</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">77.6%</span>
+          <span class="metric-label">F1-Score</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">14.6K</span>
+          <span class="metric-label">Tweets Analyzed</span>
+        </div>
+      </div>
+
+      <div class="stack">
+        <span class="tag">scikit-learn</span>
+        <span class="tag">MultinomialNB</span>
+        <span class="tag">SMOTE</span>
+        <span class="tag">TF-IDF</span>
+        <span class="tag">NLTK</span>
+        <span class="tag">Python</span>
+      </div>
+
+      <div class="card-links">
+        <a class="link-btn link-github" href="https://github.com/ChintisLab" target="_blank">
+          <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+        <a class="link-btn link-demo disabled" href="#">▶ Live Demo</a>
+        <a class="link-btn link-arch disabled" href="#">🏗 Architecture</a>
+        <a class="link-btn link-doc disabled" href="#">📄 Documentation</a>
+      </div>
+    </div>
+
+    <!-- ── PROJECT 5: NYC TAXI ── -->
     <div class="card status-live" data-tags="data live" style="border-color: rgba(34,197,94,0.25);">
       <div class="card-header">
         <span class="card-icon">📊</span>
@@ -1090,6 +1142,60 @@
       </div>
     </div>
 
+    <!-- ── PROJECT 8: COLLABDOCS ── -->
+    <div class="card status-live" data-tags="fullstack live">
+      <div class="card-header">
+        <span class="card-icon">📝</span>
+        <div class="card-title-group">
+          <div class="card-title">CollabDocs · Real-Time Collaborative Editor</div>
+          <div class="card-subtitle">Next.js · TipTap · Yjs CRDT · WebSocket</div>
+        </div>
+        <div class="status-badge live">
+          <span class="status-dot"></span> LIVE
+        </div>
+      </div>
+
+      <div class="card-desc">
+        Production-ready collaborative text editor — multiple users edit simultaneously with CRDT conflict-free merges, multi-cursor presence, offline-first IndexedDB sync, and role-based sharing (Owner/Editor/Viewer).
+      </div>
+
+      <div class="metrics">
+        <div class="metric">
+          <span class="metric-value">0</span>
+          <span class="metric-label">Merge Conflicts</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">2s</span>
+          <span class="metric-label">Autosave Interval</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value">7</span>
+          <span class="metric-label">Core Features</span>
+        </div>
+      </div>
+
+      <div class="stack">
+        <span class="tag">Next.js 15</span>
+        <span class="tag">React 19</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">TipTap</span>
+        <span class="tag">Yjs CRDT</span>
+        <span class="tag">WebSocket</span>
+        <span class="tag">Prisma</span>
+        <span class="tag">NextAuth</span>
+      </div>
+
+      <div class="card-links">
+        <a class="link-btn link-github" href="https://github.com/ChintisLab" target="_blank">
+          <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+        <a class="link-btn link-demo disabled" href="#">▶ Live Demo</a>
+        <a class="link-btn link-arch disabled" href="#">🏗 Architecture</a>
+        <a class="link-btn link-doc disabled" href="#">📄 Documentation</a>
+      </div>
+    </div>
+
     <!-- ── FULL STACK COMING SOON CARD ── -->
     <div class="card card-fullstack-soon" data-tags="fullstack">
       <!-- Animated corner accents -->
@@ -1101,8 +1207,8 @@
       <div class="card-header">
         <span class="card-icon">🌐</span>
         <div class="card-title-group">
-          <div class="card-title">Full Stack Projects</div>
-          <div class="card-subtitle">React · Node.js · PostgreSQL · Docker</div>
+          <div class="card-title">More Full Stack Projects</div>
+          <div class="card-subtitle">SaaS · APIs · Cloud-deployed apps</div>
         </div>
         <div class="status-badge" style="background:rgba(124,58,237,0.12);color:var(--purple);border:1px solid rgba(124,58,237,0.3);">
           <span class="status-dot" style="background:var(--purple);animation:pulse-purple 1.5s ease-in-out infinite;"></span>
@@ -1119,11 +1225,11 @@
             <span style="color:var(--muted);font-size:0.65rem;margin-left:8px;">terminal</span>
           </div>
           <div class="fs-terminal-body">
-            <div class="fs-line"><span class="fs-prompt">$</span> git init full-stack-projects</div>
-            <div class="fs-line fs-dim">Initialized empty Git repository</div>
-            <div class="fs-line"><span class="fs-prompt">$</span> npm install dependencies...</div>
-            <div class="fs-line fs-dim">✔ React · Node · PostgreSQL · Docker</div>
-            <div class="fs-line"><span class="fs-prompt">$</span> git commit -m <span class="fs-string">"🚀 launching soon"</span></div>
+            <div class="fs-line"><span class="fs-prompt">$</span> git checkout -b next-fullstack-project</div>
+            <div class="fs-line fs-dim">Switched to new branch</div>
+            <div class="fs-line"><span class="fs-prompt">$</span> npm run build</div>
+            <div class="fs-line fs-dim">▶ Compiling... 0 errors</div>
+            <div class="fs-line"><span class="fs-prompt">$</span> git push origin main <span class="fs-string"># coming soon</span></div>
             <div class="fs-line fs-blink">█</div>
           </div>
         </div>
@@ -1131,11 +1237,11 @@
         <div class="fs-eta-row">
           <div class="fs-eta-item">
             <span class="fs-eta-icon">⚡</span>
-            <span>Production-grade web apps</span>
+            <span>Production SaaS applications</span>
           </div>
           <div class="fs-eta-item">
             <span class="fs-eta-icon">🔐</span>
-            <span>Auth, APIs & databases</span>
+            <span>Auth, REST & GraphQL APIs</span>
           </div>
           <div class="fs-eta-item">
             <span class="fs-eta-icon">☁️</span>

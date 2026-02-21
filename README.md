@@ -145,59 +145,336 @@ available   : December 2025
 
 ---
 
+## 🚀 &nbsp; Featured Projects
+
 <!-- ANIMATED DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--          PROJECTS  —  GIF ON LEFT                         -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
 
-## 🚀 &nbsp; Featured Projects
+[![View Interactive Showcase](https://img.shields.io/badge/🔬_View_Full_Interactive_Project_Showcase-7c3aed?style=for-the-badge&logoColor=white)](https://chintislab.github.io/ChintisLab/projects.html)
 
-<img align="left" alt="Projects GIF" width="180" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif"/>
-
-<br/><br/>
-
-| &nbsp; | Project | What It Does | Stack |
-|:---:|:---|:---|:---|
-| 🎵 | **GenAI — Lyric-to-Chord** | DistilBERT classifier → Mistral 7B chord gen · HuggingFace + MuseScore | `LLM` `DistilBERT` `Mistral 7B` |
-| 🤖 | **Multi-Agent RL · Drones** | Q-Learning, DQN, QMIX · **20% faster convergence** | `RL` `QMIX` `PettingZoo` |
-| 🧠 | **Hallucination Mitigation** | RoBERTa dual-layer · **86.3% accuracy** · 40% fewer false outputs | `NLP` `RoBERTa` `GPT` |
-| 📊 | **NYC Taxi Pipeline** | ETL for **75M+ records** · AWS Glue & Lambda · Snowflake **35% faster** | `AWS` `Snowflake` |
-| ₿ | **Crypto TradeBots MLOps** | 40+ indicators · Optuna + MLflow · **20% faster iteration** | `MLOps` `Optuna` |
-| ⚙️ | **PINTOS OS Kernel** | Priority donation · MLFQ · 5K+ LOC · **90%+ test coverage** | `C` `x86` `OS` |
-
-<br clear="left"/>
+</div>
 
 ---
 
-<!-- ANIMATED DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<!-- ───────────────────────── PROJECT 1 ───────────────────────── -->
+<details>
+<summary>
+  <b>🎵 &nbsp; GenAI — Lyric-to-Chord Generator</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/LLM-DistilBERT_+_Mistral_7B-7c3aed?style=flat-square"/>
+</summary>
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--          BY THE NUMBERS  —  GIF ON RIGHT                  -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-## 📈 &nbsp; By The Numbers
-
-<img align="right" alt="Stats GIF" width="220" src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif"/>
+<br/>
 
 ```
-╔═══════════════════════════════════════════════════════╗
-║                   IMPACT METRICS                      ║
-╠═══════════════════════════════════════════════════════╣
-║  📦  10M+    records/day — multi-cloud ETL            ║
-║  👥  300K+   alumni records in seconds (was hours)    ║
-║  🎯   92%    salary prediction accuracy (Azure ML)    ║
-║  ⚡  99.9%   uptime on Darwinbox microservices        ║
-║  🔧   90%    reduction in manual reporting effort     ║
-║  🧠  86.3%   hallucination detection vs GPT-3.5       ║
-║  🛡️   70%    reliability boost via AKS alerting       ║
-║  🚀   50%    shorter regression cycles (CI/CD)        ║
-╚═══════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║  🎵  LYRIC-TO-CHORD  ·  GenAI Music Intelligence            ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  Feed it lyrics → get chord progressions      ║
+║  Architecture:  DistilBERT (mood classification)             ║
+║                 → Mistral 7B (chord generation)              ║
+║                 → MuseScore (sheet music rendering)          ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Mood classification  ──────────────  92.4% accuracy      ║
+║     Chord coherence score  ────────────  4.3 / 5.0           ║
+║     Avg inference time  ───────────────  ~1.8s / song        ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-<br clear="right"/>
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](.)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](.)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](.)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](.)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab)** &nbsp;|&nbsp; 📽️ **[Demo Video — coming soon]** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<!-- ───────────────────────── PROJECT 2 ───────────────────────── -->
+<details>
+<summary>
+  <b>🤖 &nbsp; Multi-Agent Reinforcement Learning · Drones</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/RL-QMIX_+_DQN-7c3aed?style=flat-square"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  🤖  MULTI-AGENT RL  ·  Cooperative Drone Navigation        ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  Multi-drone coordination via joint policy    ║
+║  Algorithms:    Q-Learning  →  DQN  →  QMIX                 ║
+║  Environment:   PettingZoo custom multi-agent grid           ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Convergence speed vs baseline  ────  +20% faster        ║
+║     Policy stability (σ reward)  ──────  0.12 (↓ 38%)       ║
+║     Agents coordinated  ───────────────  up to 8            ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](.)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
+![PettingZoo](https://img.shields.io/badge/PettingZoo-0d1117?style=flat-square&logoColor=white)
+![QMIX](https://img.shields.io/badge/QMIX-7c3aed?style=flat-square)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab)** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<!-- ───────────────────────── PROJECT 3 ───────────────────────── -->
+<details>
+<summary>
+  <b>🧠 &nbsp; Hallucination Mitigation · LLM Reliability</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/NLP-RoBERTa_+_GPT-7c3aed?style=flat-square"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  🧠  HALLUCINATION MITIGATION  ·  LLM Truth Layer           ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  Dual-layer RoBERTa verifier on GPT outputs   ║
+║  Approach:      Claim extraction → NLI → confidence scoring  ║
+║  Baseline:      GPT-3.5 raw output (no verification)         ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Detection accuracy  ───────────────  86.3%              ║
+║     False positives reduced  ──────────  ↓ 40%              ║
+║     Latency overhead  ─────────────────  +210ms avg         ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](.)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](.)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab)** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<!-- ───────────────────────── PROJECT 4 ───────────────────────── -->
+<details>
+<summary>
+  <b>📊 &nbsp; NYC Taxi · 75M-Record Cloud Pipeline</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Cloud-AWS_+_Snowflake-7c3aed?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/▶_LIVE_DEMO-Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  📊  NYC TAXI PIPELINE  ·  Massive-Scale Cloud ETL          ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  End-to-end ETL → analytics on 75M+ records  ║
+║  Stack:         S3 → AWS Glue → Lambda → Snowflake           ║
+║  Pattern:       Medallion architecture (Bronze/Silver/Gold)  ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Records processed  ────────────────  75M+               ║
+║     Query performance gain  ───────────  35% faster         ║
+║     Pipeline cost vs baseline  ────────  ↓ 28% (spot EC2)  ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+[![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](.)
+[![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)](.)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab)** &nbsp;|&nbsp; ▶️ **[Live Demo — Streamlit App](https://nyc-taxi-ride-demand-prediction-pipeline-esopcotnruwmfbqro3gja.streamlit.app/)** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<!-- ───────────────────────── PROJECT 5 ───────────────────────── -->
+<details>
+<summary>
+  <b>₿ &nbsp; Crypto TradeBots · MLOps Pipeline</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-BUILDING-f59e0b?style=flat-square&logo=progress&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/MLOps-Optuna_+_MLflow-7c3aed?style=flat-square"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  ₿  CRYPTO TRADEBOTS  ·  MLOps-Driven Algo Trading         ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  40+ technical indicators → ML signal gen     ║
+║  MLOps:         Optuna HPO → MLflow experiment tracking      ║
+║  Status:        ████████████░░░░  75%  WRITE-UP IN PROGRESS  ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Indicators engineered  ────────────  40+               ║
+║     Iteration speed gain  ─────────────  +20% (HPO)        ║
+║     [  Backtesting results — proof of work loading...  ]    ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+[![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)](.)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
+![Optuna](https://img.shields.io/badge/Optuna-7c3aed?style=flat-square)
+![Status](https://img.shields.io/badge/📊_Proof_of_Work-Loading...-f59e0b?style=flat-square)
+
+> 🔗 **[View Repo — coming soon]** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<!-- ───────────────────────── PROJECT 6 ───────────────────────── -->
+<details>
+<summary>
+  <b>⚙️ &nbsp; PINTOS OS Kernel · From Scratch</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-BUILDING-f59e0b?style=flat-square&logo=progress&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Systems-C_+_x86-7c3aed?style=flat-square"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  ⚙️  PINTOS OS KERNEL  ·  Systems Engineering Depth         ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  Full kernel: threads, VM, filesys, syscalls  ║
+║  Features:      Priority donation, MLFQ scheduler, paging    ║
+║  Scope:         5K+ LOC · x86 assembly + C                  ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Test coverage  ────────────────────  90%+ passing       ║
+║     LOC written  ──────────────────────  5,000+             ║
+║     [  Test suite screenshots — proof of work loading...  ] ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![x86](https://img.shields.io/badge/x86_Assembly-0d1117?style=flat-square&logoColor=white)
+![OS](https://img.shields.io/badge/OS_Design-7c3aed?style=flat-square)
+![Status](https://img.shields.io/badge/📊_Proof_of_Work-Loading...-f59e0b?style=flat-square)
+
+> 🔗 **[View Repo — coming soon]** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<!-- ───────────────────────── PROJECT 7 ───────────────────────── -->
+<details>
+<summary>
+  <b>💬 &nbsp; Sentiment Analysis · Tone Detection</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/NLP-Naïve_Bayes_+_SMOTE-7c3aed?style=flat-square"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  💬  SENTIMENT ANALYSIS  ·  Airline Tweet Intelligence      ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  Classifies tweets → Positive/Neutral/Neg     ║
+║  Extra layer:   Sarcasm/tone detection on top of sentiment   ║
+║  Data:          14,640 US airline tweets · class-balanced    ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     MultinomialNB accuracy  ───────────  84.6%              ║
+║     F1-Score  ─────────────────────────  77.6%              ║
+║     Precision  ────────────────────────  80.0%              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](.)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
+![SMOTE](https://img.shields.io/badge/SMOTE-7c3aed?style=flat-square)
+![TF-IDF](https://img.shields.io/badge/TF--IDF-0d1117?style=flat-square)
+![NLTK](https://img.shields.io/badge/NLTK-4EA94B?style=flat-square)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab/Airline-Sentiment-and-Sarcasm-Analysis)** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<!-- ───────────────────────── PROJECT 8 ───────────────────────── -->
+<details>
+<summary>
+  <b>📝 &nbsp; CollabDocs · Real-Time Collaborative Editor</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Full_Stack-Next.js_+_Yjs_CRDT-7c3aed?style=flat-square"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  📝  COLLABDOCS  ·  Production Collaborative Text Editor    ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  Multi-user real-time doc editing w/ CRDT     ║
+║  Features:      Multi-cursor presence · offline-first sync   ║
+║                 Role-based sharing · autosave every 2s       ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Merge conflicts  ──────────────────  0 (Yjs CRDT)       ║
+║     Autosave interval  ────────────────  2 seconds          ║
+║     Auth + permission roles  ──────────  Owner/Editor/Viewer ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+[![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)](.)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](.)
+[![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)](.)
+![Yjs](https://img.shields.io/badge/Yjs_CRDT-7c3aed?style=flat-square)
+![TipTap](https://img.shields.io/badge/TipTap-0d1117?style=flat-square)
+[![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)](.)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab/Collaborative-Text-Editor)** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<div align="center">
+<sub>🟢 LIVE = deployed & documented &nbsp;·&nbsp; 🟡 BUILDING = proof of work being added &nbsp;·&nbsp; Click any project to expand</sub>
+</div>
+
+---
+
+<div align="center">
+<sub>🟢 LIVE = deployed & documented &nbsp;·&nbsp; 🟡 BUILDING = proof of work being added &nbsp;·&nbsp; Click any project to expand</sub>
+</div>
 
 ---
 

@@ -557,7 +557,7 @@ available   : December 2025
 
 **Open to SDE / MLE / AI Engineering Roles · Available Dec 2025**
 
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com](https://www.linkedin.com/in/rachanaanugandula/))
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rachanaanugandula/)
 
 *"The best systems are the ones that quietly handle everything."*
 

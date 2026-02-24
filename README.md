@@ -197,6 +197,45 @@ available   : December 2025
 
 ---
 
+<!-- ───────────────────────── PROJECT 6b ───────────────────────── -->
+<details>
+<summary>
+  <b>🗄️ &nbsp; kube-pfs · Kubernetes CSI Parallel File System</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Systems-Go_+_gRPC_+_K8s-7c3aed?style=flat-square"/>
+</summary>
+
+<br/>
+
+    ╔══════════════════════════════════════════════════════════════╗
+    ║  🗄️  KUBE-PFS  ·  Simulated Parallel File System on K8s    ║
+    ╠══════════════════════════════════════════════════════════════╣
+    ║  What it does:  CSI-style storage with split control/data    ║
+    ║  MDS:           Create · Lookup · Stat · ListDir · Unlink    ║
+    ║  OST:           WriteBlock · ReadBlock · DeleteBlock         ║
+    ║  Extras:        Fault injection · fio benchmarks · Demo UI   ║
+    ╠══════════════════════════════════════════════════════════════╣
+    ║  📊 METRICS                                                  ║
+    ║     MDS operations implemented  ───────  5                  ║
+    ║     OST operations implemented  ───────  4                  ║
+    ║     Fault injectors (CLI)  ────────────  3                  ║
+    ╚══════════════════════════════════════════════════════════════╝
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab/kube-pfs)** &nbsp;|&nbsp; ▶️ **[▶ Run It Locally — Setup Guide](https://github.com/ChintisLab/kube-pfs#live-demo-validation-checklist)**
+
+</details>
+
+---
+
 <!-- ───────────────────────── PROJECT 2 ───────────────────────── -->
 <details>
 <summary>

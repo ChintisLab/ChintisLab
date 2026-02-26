@@ -798,6 +798,60 @@
     </div>
     </div>
 
+     <!-- ── PROJECT 9: KUBE-PFS ── -->
+<div class="card status-live" data-tags="systems live">
+  <div class="card-header">
+    <span class="card-icon">🗄️</span>
+    <div class="card-title-group">
+      <div class="card-title">kube-pfs · Kubernetes CSI Parallel File System</div>
+      <div class="card-subtitle">Go · gRPC · BoltDB · Prometheus · kind</div>
+    </div>
+    <div class="status-badge live">
+      <span class="status-dot"></span> LIVE
+    </div>
+  </div>
+
+  <div class="card-desc">
+    Simulates a parallel file system behind a Kubernetes CSI workflow — separating metadata (MDS) from block data (OST). Includes fault injection, Prometheus metrics, Grafana dashboards, fio benchmarking, and a live demo UI.
+  </div>
+
+  <div class="metrics">
+    <div class="metric">
+      <span class="metric-value">5</span>
+      <span class="metric-label">MDS Operations</span>
+    </div>
+    <div class="metric">
+      <span class="metric-value">4</span>
+      <span class="metric-label">OST Operations</span>
+    </div>
+    <div class="metric">
+      <span class="metric-value">3</span>
+      <span class="metric-label">Fault Injectors</span>
+    </div>
+  </div>
+
+  <div class="stack">
+    <span class="tag">Go</span>
+    <span class="tag">gRPC</span>
+    <span class="tag">BoltDB</span>
+    <span class="tag">Kubernetes</span>
+    <span class="tag">Prometheus</span>
+    <span class="tag">Grafana</span>
+    <span class="tag">Docker</span>
+    <span class="tag">fio</span>
+  </div>
+
+  <div class="card-links">
+    <a class="link-btn link-github" href="https://github.com/ChintisLab/kube-pfs" target="_blank">
+      <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub
+    </a>
+    <a class="link-btn link-demo" href="https://github.com/ChintisLab/kube-pfs#live-demo-validation-checklist" target="_blank">▶ Live Demo</a>
+    <a class="link-btn link-arch disabled" href="#">🏗 Architecture</a>
+    <a class="link-btn link-doc disabled" href="#">📄 Documentation</a>
+  </div>
+</div>
+
     <!-- ── PROJECT 5: NYC TAXI ── -->
     <div class="card status-live" data-tags="data live" style="border-color: rgba(34,197,94,0.25);">
       <div class="card-header">
@@ -1196,59 +1250,7 @@
       </div>
     </div>
 
-    <!-- ── PROJECT 9: KUBE-PFS ── -->
-<div class="card status-live" data-tags="systems live">
-  <div class="card-header">
-    <span class="card-icon">🗄️</span>
-    <div class="card-title-group">
-      <div class="card-title">kube-pfs · Kubernetes CSI Parallel File System</div>
-      <div class="card-subtitle">Go · gRPC · BoltDB · Prometheus · kind</div>
-    </div>
-    <div class="status-badge live">
-      <span class="status-dot"></span> LIVE
-    </div>
-  </div>
-
-  <div class="card-desc">
-    Simulates a parallel file system behind a Kubernetes CSI workflow — separating metadata (MDS) from block data (OST). Includes fault injection, Prometheus metrics, Grafana dashboards, fio benchmarking, and a live demo UI.
-  </div>
-
-  <div class="metrics">
-    <div class="metric">
-      <span class="metric-value">5</span>
-      <span class="metric-label">MDS Operations</span>
-    </div>
-    <div class="metric">
-      <span class="metric-value">4</span>
-      <span class="metric-label">OST Operations</span>
-    </div>
-    <div class="metric">
-      <span class="metric-value">3</span>
-      <span class="metric-label">Fault Injectors</span>
-    </div>
-  </div>
-
-  <div class="stack">
-    <span class="tag">Go</span>
-    <span class="tag">gRPC</span>
-    <span class="tag">BoltDB</span>
-    <span class="tag">Kubernetes</span>
-    <span class="tag">Prometheus</span>
-    <span class="tag">Grafana</span>
-    <span class="tag">Docker</span>
-    <span class="tag">fio</span>
-  </div>
-
-  <div class="card-links">
-    <a class="link-btn link-github" href="https://github.com/ChintisLab/kube-pfs" target="_blank">
-      <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-      GitHub
-    </a>
-    <a class="link-btn link-demo" href="https://github.com/ChintisLab/kube-pfs#live-demo-validation-checklist" target="_blank">▶ Live Demo</a>
-    <a class="link-btn link-arch disabled" href="#">🏗 Architecture</a>
-    <a class="link-btn link-doc disabled" href="#">📄 Documentation</a>
-  </div>
-</div>
+   
 
     <!-- ── FULL STACK COMING SOON CARD ── -->
     <div class="card card-fullstack-soon" data-tags="fullstack">

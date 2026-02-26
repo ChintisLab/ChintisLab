@@ -152,7 +152,27 @@ available   : December 2025
 
 <div align="center">
 
-[![View Interactive Showcase](https://img.shields.io/badge/🔬_View_Full_Interactive_Project_Showcase-7c3aed?style=for-the-badge&logoColor=white)](https://chintislab.github.io/ChintisLab/projects.html)
+<br/>
+
+⬇️ &nbsp; ⬇️ &nbsp; ⬇️ &nbsp; ⬇️ &nbsp; ⬇️ &nbsp; ⬇️ &nbsp; ⬇️ &nbsp; ⬇️ &nbsp; ⬇️ &nbsp; ⬇️
+
+<br/>
+
+<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="40px"/>
+&nbsp;&nbsp;
+<a href="https://chintislab.github.io/ChintisLab/projects.html">
+  <img src="https://img.shields.io/badge/🚀_VIEW_FULL_INTERACTIVE_PROJECT_SHOWCASE_→-7c3aed?style=for-the-badge&logoColor=white&labelColor=4c1d95" height="45px"/>
+</a>
+&nbsp;&nbsp;
+<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="40px"/>
+
+<br/>
+
+> 💡 **Click above** to see live metrics, filters, benchmark numbers, and fault timelines — all in one interactive dashboard.
+
+<br/>
+
+⬆️ &nbsp; ⬆️ &nbsp; ⬆️ &nbsp; ⬆️ &nbsp; ⬆️ &nbsp; ⬆️ &nbsp; ⬆️ &nbsp; ⬆️ &nbsp; ⬆️ &nbsp; ⬆️
 
 </div>
 

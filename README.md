@@ -211,7 +211,7 @@ available   : December 2025
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](.)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](.)
 
-> 🔗 **[View Repo](https://github.com/ChintisLab)** &nbsp;|&nbsp; 📽️ **[Demo Video — coming soon]** &nbsp;|&nbsp; 
+> 🔗 **[View Repo](https://github.com/ChintisLab/GenAI-Lyric-to-Chord-Generator)** &nbsp;|&nbsp; ▶️ **[▶ Live Demo — Streamlit App](https://genai-lyric-to-chord-generator-nqp48iw5bi6jvwrwfwqycg.streamlit.app/)**
 
 </details>
 

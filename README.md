@@ -256,6 +256,85 @@ available   : December 2025
 
 ---
 
+<!-- ───────────────────────── PROJECT 4 ───────────────────────── -->
+<details>
+<summary>
+  <b>📊 &nbsp; NYC Taxi · 75M-Record Cloud Pipeline</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Cloud-AWS_+_Snowflake-7c3aed?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/▶_LIVE_DEMO-Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  📊  NYC TAXI PIPELINE  ·  Massive-Scale Cloud ETL          ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  End-to-end ETL → analytics on 75M+ records  ║
+║  Stack:         S3 → AWS Glue → Lambda → Snowflake           ║
+║  Pattern:       Medallion architecture (Bronze/Silver/Gold)  ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Records processed  ────────────────  75M+               ║
+║     Query performance gain  ───────────  35% faster         ║
+║     Pipeline cost vs baseline  ────────  ↓ 28% (spot EC2)  ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+[![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](.)
+[![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)](.)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab)** &nbsp;|&nbsp; ▶️ **[Live Demo — Streamlit App](https://nyc-taxi-ride-demand-prediction-pipeline-esopcotnruwmfbqro3gja.streamlit.app/)** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
+<!-- ───────────────────────── PROJECT 8 ───────────────────────── -->
+<details>
+<summary>
+  <b>📝 &nbsp; CollabDocs · Real-Time Collaborative Editor</b>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Full_Stack-Next.js_+_Yjs_CRDT-7c3aed?style=flat-square"/>
+</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  📝  COLLABDOCS  ·  Production Collaborative Text Editor    ║
+╠══════════════════════════════════════════════════════════════╣
+║  What it does:  Multi-user real-time doc editing w/ CRDT     ║
+║  Features:      Multi-cursor presence · offline-first sync   ║
+║                 Role-based sharing · autosave every 2s       ║
+╠══════════════════════════════════════════════════════════════╣
+║  📊 METRICS                                                  ║
+║     Merge conflicts  ──────────────────  0 (Yjs CRDT)       ║
+║     Autosave interval  ────────────────  2 seconds          ║
+║     Auth + permission roles  ──────────  Owner/Editor/Viewer ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+[![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)](.)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](.)
+[![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)](.)
+![Yjs](https://img.shields.io/badge/Yjs_CRDT-7c3aed?style=flat-square)
+![TipTap](https://img.shields.io/badge/TipTap-0d1117?style=flat-square)
+[![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)](.)
+
+> 🔗 **[View Repo](https://github.com/ChintisLab/Collaborative-Text-Editor)** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
+
+</details>
+
+---
+
 <!-- ───────────────────────── PROJECT 2 ───────────────────────── -->
 <details>
 <summary>
@@ -326,45 +405,6 @@ available   : December 2025
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
 
 > 🔗 **[View Repo](https://github.com/ChintisLab)** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
-
-</details>
-
----
-
-<!-- ───────────────────────── PROJECT 4 ───────────────────────── -->
-<details>
-<summary>
-  <b>📊 &nbsp; NYC Taxi · 75M-Record Cloud Pipeline</b>
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Cloud-AWS_+_Snowflake-7c3aed?style=flat-square"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/▶_LIVE_DEMO-Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white"/>
-</summary>
-
-<br/>
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  📊  NYC TAXI PIPELINE  ·  Massive-Scale Cloud ETL          ║
-╠══════════════════════════════════════════════════════════════╣
-║  What it does:  End-to-end ETL → analytics on 75M+ records  ║
-║  Stack:         S3 → AWS Glue → Lambda → Snowflake           ║
-║  Pattern:       Medallion architecture (Bronze/Silver/Gold)  ║
-╠══════════════════════════════════════════════════════════════╣
-║  📊 METRICS                                                  ║
-║     Records processed  ────────────────  75M+               ║
-║     Query performance gain  ───────────  35% faster         ║
-║     Pipeline cost vs baseline  ────────  ↓ 28% (spot EC2)  ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-[![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](.)
-[![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)](.)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
-
-> 🔗 **[View Repo](https://github.com/ChintisLab)** &nbsp;|&nbsp; ▶️ **[Live Demo — Streamlit App](https://nyc-taxi-ride-demand-prediction-pipeline-esopcotnruwmfbqro3gja.streamlit.app/)** &nbsp;|&nbsp; 
 
 </details>
 
@@ -480,46 +520,6 @@ available   : December 2025
 ![NLTK](https://img.shields.io/badge/NLTK-4EA94B?style=flat-square)
 
 > 🔗 **[View Repo](https://github.com/ChintisLab/Airline-Sentiment-and-Sarcasm-Analysis)** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
-
-</details>
-
----
-
-<!-- ───────────────────────── PROJECT 8 ───────────────────────── -->
-<details>
-<summary>
-  <b>📝 &nbsp; CollabDocs · Real-Time Collaborative Editor</b>
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/STATUS-LIVE-22c55e?style=flat-square&logo=checkmarx&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Full_Stack-Next.js_+_Yjs_CRDT-7c3aed?style=flat-square"/>
-</summary>
-
-<br/>
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║  📝  COLLABDOCS  ·  Production Collaborative Text Editor    ║
-╠══════════════════════════════════════════════════════════════╣
-║  What it does:  Multi-user real-time doc editing w/ CRDT     ║
-║  Features:      Multi-cursor presence · offline-first sync   ║
-║                 Role-based sharing · autosave every 2s       ║
-╠══════════════════════════════════════════════════════════════╣
-║  📊 METRICS                                                  ║
-║     Merge conflicts  ──────────────────  0 (Yjs CRDT)       ║
-║     Autosave interval  ────────────────  2 seconds          ║
-║     Auth + permission roles  ──────────  Owner/Editor/Viewer ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-[![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)](.)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](.)
-[![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)](.)
-![Yjs](https://img.shields.io/badge/Yjs_CRDT-7c3aed?style=flat-square)
-![TipTap](https://img.shields.io/badge/TipTap-0d1117?style=flat-square)
-[![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)](.)
-
-> 🔗 **[View Repo](https://github.com/ChintisLab/Collaborative-Text-Editor)** &nbsp;|&nbsp; ▶️ **[Live Demo — coming soon]** &nbsp;|&nbsp; 
 
 </details>
 
